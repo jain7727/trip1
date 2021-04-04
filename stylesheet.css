@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/world\ tour.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+   margin-left: 35px;
+   color:whitesmoke;
+    cursor: pointer;
+   
+}
+
+.menu {
+    margin-left: 80px;
+    margin-right: 35px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+    
+}
+h1{
+    color: white;
+    font-size: 100px;
+    
+    
+}
+
+p{
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    
+}
+
+button{
+    width: 150px;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 0;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display:inline-block ;
+    padding: 10px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    background-position:center;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.card1{
+    background-image: url(images/Taj\ Mahal.jpg);
+}
+.card2{
+    background-image: url(images/varkala\ beach.jpg);
+}
+.card3{
+    background-image: url(images/lotus\ temple.jpg);
+}
+.card4{
+    background-image: url(images/hampi.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+h5{
+    color: white;
+    text-shadow: 0.5px 0.5px white;
+}
+
+.card p{
+    text-shadow: 0.3px 0.3px white;
+    font-size: 12px;
+}
